@@ -432,7 +432,7 @@ class TreeNode extends React.Component {
         onDoubleClick={this.onSelectorDoubleClick}
         onDragStart={draggable ? this.onDragStart : undefined}
       >
-        {$icon}{$title}
+        {$icon}{$title} {'edit'}
       </span>
     );
   };
